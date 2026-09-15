@@ -27,7 +27,7 @@ Each phase explains the business requirement, implementation, validation, troubl
 
 ## Current evidence
 
-Phase 1 includes a supplied Microsoft Entra user-list screenshot showing eight Member accounts with consistent UPNs and no on-premises synchronization. The case study distinguishes these visible facts from licensing, sign-in, provisioning-method, and troubleshooting details that have not yet been provided.
+Phase 1 includes three screenshots: eight Member accounts with consistent UPNs and no on-premises synchronization, Alex Morgan's user profile, and Alex Morgan's active Microsoft 365 E5 Developer license with direct assignment. The case study distinguishes observed configuration from sign-in tests, provisioning methods, and troubleshooting outcomes that have not yet been provided.
 
 ## Relevance to support roles
 
