@@ -18,8 +18,8 @@ Each phase explains the business requirement, implementation, validation, troubl
 | --- | --- | --- |
 | 1 | Identity and user provisioning | [Case study — approved](docs/phase-01-identity-and-user-provisioning.md) |
 | 2 | Security groups and Microsoft 365 groups | [Case study — approved](docs/phase-02-security-and-microsoft-365-groups.md) |
-| 3 | Exchange Online and shared mailboxes | [Case study — ready for review](docs/phase-03-exchange-online-and-shared-mailboxes.md) |
-| 4 | Microsoft Teams | Reserved for a later review |
+| 3 | Exchange Online and shared mailboxes | [Case study — approved](docs/phase-03-exchange-online-and-shared-mailboxes.md) |
+| 4 | Microsoft Teams | [Case study — ready for review](docs/phase-04-microsoft-teams.md) |
 | 5 | SharePoint Online | Reserved for a later review |
 | 6 | MFA and Conditional Access | Reserved for a later review |
 | 7 | Self-Service Password Reset | Reserved for a later review |
@@ -33,6 +33,8 @@ Phase 2 includes five screenshots documenting four department security groups, t
 
 Phase 3 includes nine screenshots covering HR, Finance, and IT Support shared mailboxes, HR and IT Support delegation, and the HR end-user validation. It distinguishes Full Access from Send As and documents the received HR test message, with clear limits on Finance permissions and the Outlook access capture.
 
+Phase 4 includes six screenshots covering the HR, Finance, and Sales teams, HR's standard and private channels, team roles, and HR Management membership. Sarah's and Melissa's identified user views show the expected difference in private-channel visibility.
+
 ## Relevance to support roles
 
 This project provides a context for discussing user account administration, Microsoft 365 service support, access troubleshooting, and clear technical documentation. Evidence and demonstrated skills are described within each phase rather than assuming every listed technology has been independently validated.
@@ -43,4 +45,4 @@ Northstar Consulting is fictional. This repository describes lab work and does n
 
 Only reviewed evidence belongs in this portfolio. Passwords, MFA secrets, QR codes, tokens, personal phone numbers, recovery information, and other credentials must not be committed.
 
-**Current review boundary: Phases 1 and 2 approved; Phase 3 ready for review. Phase 4 has not been started.**
+**Current review boundary: Phases 1–3 approved; Phase 4 ready for review. Phase 5 has not been started.**
