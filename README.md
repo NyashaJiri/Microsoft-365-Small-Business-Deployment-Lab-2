@@ -21,8 +21,8 @@ Each phase explains the business requirement, implementation, validation, troubl
 | 3 | Exchange Online and shared mailboxes | [Case study — approved](docs/phase-03-exchange-online-and-shared-mailboxes.md) |
 | 4 | Microsoft Teams | [Case study — approved](docs/phase-04-microsoft-teams.md) |
 | 5 | SharePoint Online | [Case study — approved](docs/phase-05-sharepoint-online.md) |
-| 6 | MFA and Conditional Access | [Case study — ready for review](docs/phase-06-mfa-and-conditional-access.md) |
-| 7 | Self-Service Password Reset | Reserved for a later review |
+| 6 | MFA and Conditional Access | [Case study — approved](docs/phase-06-mfa-and-conditional-access.md) |
+| 7 | Self-Service Password Reset | [Case study — ready for review](docs/phase-07-self-service-password-reset.md) |
 | 8 | RBAC, administrative delegation and auditing | Reserved for a later review |
 
 ## Current evidence
@@ -39,6 +39,8 @@ Phase 5 documents the Northstar Corporate Portal, four document libraries, HR's 
 
 Phase 6 includes five screenshots covering enabled CA001 and CA002 policies and Sarah's sign-in evaluations. It documents the author-reported Report-only rollout, CA001's Success result, and CA002's expected Not Applied result for a Browser client, with unshown exclusion identities and test details left unspecified.
 
+Phase 7 includes six screenshots covering SSPR scope, the two-method reset requirement, sign-in registration, Sarah's authentication-method inventory, and successful reset confirmation. It explains the reported initial registration mismatch and uses the Microsoft Entra audit event to verify Sarah's reset outcome.
+
 ## Relevance to support roles
 
 This project provides a context for discussing user account administration, Microsoft 365 service support, access troubleshooting, and clear technical documentation. Evidence and demonstrated skills are described within each phase rather than assuming every listed technology has been independently validated.
@@ -49,4 +51,4 @@ Northstar Consulting is fictional. This repository describes lab work and does n
 
 Only reviewed evidence belongs in this portfolio. Passwords, MFA secrets, QR codes, tokens, personal phone numbers, recovery information, and other credentials must not be committed.
 
-**Current review boundary: Phases 1–5 approved; Phase 6 ready for review. Phase 7 has not been started.**
+**Current review boundary: Phases 1–6 approved; Phase 7 ready for review. Phase 8 has not been started.**
