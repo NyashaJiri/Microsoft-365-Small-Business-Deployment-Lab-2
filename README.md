@@ -19,8 +19,8 @@ Each phase explains the business requirement, implementation, validation, troubl
 | 1 | Identity and user provisioning | [Case study — approved](docs/phase-01-identity-and-user-provisioning.md) |
 | 2 | Security groups and Microsoft 365 groups | [Case study — approved](docs/phase-02-security-and-microsoft-365-groups.md) |
 | 3 | Exchange Online and shared mailboxes | [Case study — approved](docs/phase-03-exchange-online-and-shared-mailboxes.md) |
-| 4 | Microsoft Teams | [Case study — ready for review](docs/phase-04-microsoft-teams.md) |
-| 5 | SharePoint Online | Reserved for a later review |
+| 4 | Microsoft Teams | [Case study — approved](docs/phase-04-microsoft-teams.md) |
+| 5 | SharePoint Online | [Case study — text ready; screenshots pending](docs/phase-05-sharepoint-online.md) |
 | 6 | MFA and Conditional Access | Reserved for a later review |
 | 7 | Self-Service Password Reset | Reserved for a later review |
 | 8 | RBAC, administrative delegation and auditing | Reserved for a later review |
@@ -35,6 +35,8 @@ Phase 3 includes nine screenshots covering HR, Finance, and IT Support shared ma
 
 Phase 4 includes six screenshots covering the HR, Finance, and Sales teams, HR's standard and private channels, team roles, and HR Management membership. Sarah's and Melissa's identified user views show the expected difference in private-channel visibility.
 
+Phase 5 documents the Northstar Corporate Portal, four document libraries, HR's unique permissions, and the SG-HR-Users Edit assignment. The Sarah-versus-James comparison records portal visibility rather than a direct library allow/deny test. Six supplied screenshots were reviewed; their publication is pending privacy approval or redacted replacements.
+
 ## Relevance to support roles
 
 This project provides a context for discussing user account administration, Microsoft 365 service support, access troubleshooting, and clear technical documentation. Evidence and demonstrated skills are described within each phase rather than assuming every listed technology has been independently validated.
@@ -45,4 +47,4 @@ Northstar Consulting is fictional. This repository describes lab work and does n
 
 Only reviewed evidence belongs in this portfolio. Passwords, MFA secrets, QR codes, tokens, personal phone numbers, recovery information, and other credentials must not be committed.
 
-**Current review boundary: Phases 1–3 approved; Phase 4 ready for review. Phase 5 has not been started.**
+**Current review boundary: Phases 1–4 approved; Phase 5 text ready for review, screenshots pending. Phase 6 has not been started.**
