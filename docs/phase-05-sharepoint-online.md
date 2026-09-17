@@ -76,16 +76,41 @@ The user describes the validation as authorized HR access and unrelated-user exc
 
 ## Screenshots and evidence
 
-Six screenshots were supplied and reviewed. Their upload is pending because automatic approval review blocked an image containing a visible email address. The intended repository directory is `screenshots/phase-05-sharepoint/`. Images are not embedded until their publication is cleared or redacted copies are supplied.
+### Figure 1 — Northstar Corporate Portal
 
-| Figure | Supplied filename | Evidence description |
-| --- | --- | --- |
-| 1 | 01-northstar-corporate-portal.png | Portal identity, description, private group, and associated site information |
-| 2 | 02-document-libraries-overview.png | Company Documents, HR Documents, Finance Documents, and Sales Resources in portal navigation |
-| 3 | 03-hr-library-unique-permissions.png | HR library unique-permissions banner |
-| 4 | 04-hr-security-group-access.png | Portal Owners with Full Control and SG-HR-Users with Edit |
-| 5 | 05-hr-access-validation.png | Sarah's portal home page showing HR Documents and HR activity |
-| 6 | 06-hr-denied-validation.png | James's portal home page without the HR Documents navigation entry |
+![Northstar Corporate Portal](../screenshots/phase-05-sharepoint/01-northstar-corporate-portal.png)
+
+*Portal identity, description, private group, and associated site information.*
+
+### Figure 2 — Document libraries overview
+
+![Document libraries overview](../screenshots/phase-05-sharepoint/02-document-libraries-overview.png)
+
+*Company Documents, HR Documents, Finance Documents, and Sales Resources appear in portal navigation.*
+
+### Figure 3 — HR unique permissions
+
+![HR unique permissions](../screenshots/phase-05-sharepoint/03-hr-library-unique-permissions.png)
+
+*The HR library displays the unique-permissions banner.*
+
+### Figure 4 — HR security-group access
+
+![HR security-group access](../screenshots/phase-05-sharepoint/04-hr-security-group-access.png)
+
+*Northstar Corporate Portal Owners has Full Control; SG-HR-Users has Edit.*
+
+### Figure 5 — Sarah's portal view
+
+![Sarah's portal view](../screenshots/phase-05-sharepoint/05-hr-access-validation.png)
+
+*Sarah's identified session shows HR Documents in navigation and the HR-Policy-Test activity card.*
+
+### Figure 6 — James's portal view
+
+![James's portal view](../screenshots/phase-05-sharepoint/06-hr-denied-validation.png)
+
+*James's identified session shows the portal home page without the HR Documents navigation entry.*
 
 The supplied filename for Figure 6 labels it “denied”; the screenshot itself demonstrates navigation absence rather than an access-denied error.
 
@@ -104,4 +129,4 @@ No Phase 5 diagnostic sequence, corrective change, or successful retest after a 
 
 These skills support common service-desk requests involving document access, department onboarding, missing navigation entries, and permission reviews.
 
-**Review checkpoint:** Phase 5 text is ready for review; screenshot publication remains pending. Phase 6 has not been started.
+**Review checkpoint:** Phase 5 is ready for review. Phase 6 has not been started.
