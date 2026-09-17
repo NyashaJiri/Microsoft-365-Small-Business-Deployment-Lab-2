@@ -148,4 +148,4 @@ The audit event directly supports a successful self-service password reset for S
 
 These skills support service-desk work involving password recovery, registration assistance, and evidence-based resolution of account-access incidents.
 
-**Review checkpoint:** Phase 7 is ready for review. Phase 8 has not been started.
+**Review status:** Phase 7 approved. All eight phases are documented; final repository review is pending.

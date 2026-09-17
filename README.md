@@ -6,11 +6,11 @@ A hands-on administration case study for a fictional company, focused on skills 
 
 This lab covers the identity, collaboration, security, and delegated administration functions of a Microsoft 365 environment. The business scenario is a small consulting company requiring organizational accounts, shared communication and collaboration resources, and controlled access.
 
-The lab has been reported complete by its author. Portfolio documentation is being developed and reviewed one phase at a time. Specific configuration and test claims are included only where supported by supplied evidence.
+All eight phases are documented and ready for final repository review. Each phase distinguishes screenshot evidence, author-reported implementation, and tests not captured.
 
 ## Case study approach
 
-Each phase explains the business requirement, implementation, validation, troubleshooting, and skills demonstrated. Screenshots support the narrative and are interpreted with clear limits on what they prove.
+Each phase explains the business requirement, implementation, validation, and skills demonstrated, with troubleshooting where relevant. Screenshots support the narrative and are interpreted with clear limits on what they prove.
 
 ## Project scope
 

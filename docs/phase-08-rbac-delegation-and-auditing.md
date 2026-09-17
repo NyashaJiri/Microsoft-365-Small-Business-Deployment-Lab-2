@@ -1,6 +1,6 @@
 # Phase 8 — RBAC, Administrative Delegation, and Auditing
 
-[Back to the main README](../README.md)
+[Back to project overview](../README.md)
 
 ## Business requirement
 
@@ -30,7 +30,7 @@ Using these roles reduced unnecessary administrative exposure by matching delega
 
 The supplied Microsoft Entra audit record links an administrative action to its initiating user, target, and outcome. The separate sign-in policy captures show how Conditional Access evaluated Sarah Johnson's browser access. These records answer different questions: audit logs show the administrative change, while the supplied sign-in views show policy evaluation during access.
 
-## Validation/testing
+## Validation and testing
 
 | Validation | Supplied evidence | Observed result |
 | --- | --- | --- |
@@ -77,7 +77,7 @@ CA002's result is consistent with the normal browser sign-in falling outside the
 
 These captures show Conditional Access outcomes. They do not expose Authentication Details, the method used, or whether a fresh MFA prompt occurred. They are separate from Daniel's reset audit and Alex's administration view, and are not presented as sign-in validation for either administrator.
 
-## Screenshots/evidence
+## Screenshots and evidence
 
 All eight supplied screenshots are stored in [the Phase 8 RBAC/auditing screenshots directory](../screenshots/phase-08-rbac-auditing/). They are retained as supplied, including existing obscuring of the temporary password.
 

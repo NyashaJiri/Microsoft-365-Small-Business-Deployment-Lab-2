@@ -53,7 +53,7 @@ Sarah appears explicitly in both the Owners and Members views. This documents ow
 
 Security groups can be granted permissions to resources. Microsoft 365 groups provide shared membership for collaboration resources such as SharePoint, and Teams uses Microsoft 365 groups for membership. Microsoft 365 group membership therefore also affects access to its connected resources; the distinction is the groups' primary purpose in this design. [Microsoft Learn: Compare types of groups in Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups?view=o365-worldwide).
 
-A group name ending in `Team` does not establish that a Microsoft Teams team has been created. This phase documents the groups; Teams and SharePoint configuration will be covered in their own phases.
+A group name ending in `Team` does not establish that a Microsoft Teams team has been created. This phase documents the groups; Teams and SharePoint configuration are documented in [Phase 4](phase-04-microsoft-teams.md) and [Phase 5](phase-05-sharepoint-online.md).
 
 The creation of these groups is confirmed by the lab author and their configuration is shown in the screenshots. The exact creation interface, click sequence, and order of operations have not been supplied.
 
@@ -119,4 +119,4 @@ No Phase 2 troubleshooting incident or resolution was supplied. No corrective ac
 
 These skills support entry-level work involving onboarding, group membership requests, collaboration support, and collecting evidence for access investigations.
 
-**Review checkpoint:** Phase 2 is ready for review. Phase 3 has not been started.
+**Review status:** Phase 2 approved. All eight phases are documented; final repository review is pending.

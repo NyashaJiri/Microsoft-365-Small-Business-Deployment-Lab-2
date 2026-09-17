@@ -40,7 +40,7 @@ The additional profile and licensing captures establish the following settings f
 
 The job title is a profile attribute, not evidence of an assigned administrator role. The license screen shows the assignment state, not the process used to assign it. Enabled services do not by themselves prove successful access to each service.
 
-## Evidence
+## Screenshots and evidence
 
 ![Microsoft Entra user list showing eight Northstar lab accounts](../screenshots/phase-01/entra-user-list.png)
 
@@ -70,9 +70,9 @@ The following is a review of the supplied evidence, not a claim that additional 
 
 ## Troubleshooting
 
-No Phase 1 incident, diagnostic steps, or resolution has been supplied for this case study. No troubleshooting outcome is claimed. Any later addition should record the actual symptom, checks performed, change made, and retest result.
+No Phase 1 troubleshooting incident or resolution was supplied.
 
-## Skills demonstrated by the evidence
+## Skills demonstrated
 
 - **Identity administration:** maintaining a lab directory containing organizational Member accounts.
 - **Account naming consistency:** using a consistent UPN pattern across the displayed accounts.
@@ -90,4 +90,4 @@ These activities relate to entry-level support work such as reviewing account re
 - Tests actually performed, with their observed results.
 - Any Phase 1 issue encountered and its resolution, or confirmation that no issue occurred.
 
-**Review checkpoint:** Phase 1 documentation only. Phase 2 has not been documented.
+**Review status:** Phase 1 approved. All eight phases are documented; final repository review is pending.
