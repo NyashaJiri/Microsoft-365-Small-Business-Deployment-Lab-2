@@ -29,7 +29,7 @@ The overview confirms Finance's mailbox identity and type. Finance delegation an
 | Read and manage (Full Access) | Open the mailbox and view, add, or remove its contents | Permission to send messages as that mailbox |
 | Send As | Send messages that appear to originate from the departmental mailbox | Permission to open or read the mailbox |
 
-The permissions serve separate needs. A delegate who must manage mailbox contents and send as the department needs both. Send As presents the mailbox as the sender; Send on behalf is a separate permission that identifies the delegate acting on the mailbox's behalf. [Microsoft Learn: Manage permissions for recipients in Exchange Online](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-permissions-for-recipients).
+The permissions serve separate needs. A delegate who must manage mailbox contents and send as the department needs both. Send As presents the mailbox as the sender.
 
 ### Departmental delegation
 
