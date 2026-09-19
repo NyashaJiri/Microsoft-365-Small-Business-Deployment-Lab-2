@@ -42,9 +42,7 @@ The supplied Exchange admin center captures show separate **Send as** and **Read
 | IT Support | alex.morgan@nyashajiri.com | Assigned | Assigned |
 | IT Support | daniel.reed@nyashajiri.com | Assigned | Assigned |
 
-The HR users were assigned both permissions to handle HR correspondence; the IT Support users were assigned both to handle support correspondence. These are individual user entries in the mailbox permission lists. The screenshots do not show the Phase 2 security groups being used for these assignments.
-
-The configuration evidence records the completed assignments in each permission section. It does not establish an exact click sequence or a PowerShell implementation.
+The HR users were assigned both permissions to handle HR correspondence; the IT Support users were assigned both to handle support correspondence. 
 
 ## Validation and testing
 
