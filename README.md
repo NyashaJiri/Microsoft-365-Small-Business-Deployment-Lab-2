@@ -1,56 +1,50 @@
 # Northstar Consulting — Microsoft 365 Administration Lab
 
-A hands-on administration case study for a fictional company, focused on skills relevant to **entry-level IT Support and Microsoft 365 support**.
+A simulated small-business deployment in a **Microsoft 365 E5 Developer tenant**, demonstrating skills relevant to **entry-level IT Support and Microsoft 365 administration**. Northstar Consulting is fictional; this project represents independent lab work, not employment or production administration.
 
-## Project context
+## Business scenario and demonstrated skills
 
-This lab covers the identity, collaboration, security, and delegated administration functions of a Microsoft 365 environment. The business scenario is a small consulting company requiring organizational accounts, shared communication and collaboration resources, and controlled access.
+Northstar needed organizational accounts, departmental communication and document access, password recovery, and delegated administration. The lab covers **Microsoft Entra ID, Exchange Online, Teams, SharePoint Online, MFA, Conditional Access, SSPR, and role-based access control (RBAC)**.
 
-All eight phases are documented and ready for final repository review. Each phase distinguishes screenshot evidence, author-reported implementation, and tests not captured.
+The strongest demonstrated skills are mailbox delegation, group-based permissions, password-recovery troubleshooting, least-privilege role assignment, and audit/sign-in log interpretation.
 
-## Case study approach
+## Validated outcomes
 
-Each phase explains the business requirement, implementation, validation, and skills demonstrated, with troubleshooting where relevant. Screenshots support the narrative and are interpreted with clear limits on what they prove.
+- **Password recovery:** Sarah's successful self-service password reset is supported by a Microsoft Entra audit event and a supplied reset-completion screen.
+- **Delegated support:** Daniel, assigned Helpdesk Administrator, reset James's password. Audit evidence identifies the actor, target, action, and successful result.
+- **Departmental communication:** HR and IT Support have separate Full Access and Send As assignments. A received HR test message displays the departmental sender.
+- **Access control:** Sarah sees the HR Management private channel; Melissa's channel list excludes it. HR Documents has unique permissions, with SG-HR-Users assigned Edit.
+- **Security and administration:** CA001 records Success with grant controls satisfied; CA002 records Not Applied for a nonmatching Browser client. Alex has four specific administrator roles instead of Global Administrator and demonstrated Teams admin-center access.
 
-## Project scope
+## Troubleshooting and deployment judgment
 
-| Phase | Area | Documentation |
-| --- | --- | --- |
-| 1 | Identity and user provisioning | [Case study — approved](docs/phase-01-identity-and-user-provisioning.md) |
-| 2 | Security groups and Microsoft 365 groups | [Case study — approved](docs/phase-02-security-and-microsoft-365-groups.md) |
-| 3 | Exchange Online and shared mailboxes | [Case study — approved](docs/phase-03-exchange-online-and-shared-mailboxes.md) |
-| 4 | Microsoft Teams | [Case study — approved](docs/phase-04-microsoft-teams.md) |
-| 5 | SharePoint Online | [Case study — approved](docs/phase-05-sharepoint-online.md) |
-| 6 | MFA and Conditional Access | [Case study — approved](docs/phase-06-mfa-and-conditional-access.md) |
-| 7 | Self-Service Password Reset | [Case study — approved](docs/phase-07-self-service-password-reset.md) |
-| 8 | RBAC, administrative delegation and auditing | [Case study — ready for final review](docs/phase-08-rbac-delegation-and-auditing.md) |
+**SSPR:** The reported initial failure involved a two-method reset requirement and only one registered method. The case study connects registration readiness to the policy requirement and verifies the later successful reset through audit evidence. The exact corrective steps and methods used were not captured.
 
-## Current evidence
+**Conditional Access:** Both policies were reportedly tested in Report-only mode and reviewed in sign-in logs before enforcement. The screenshots show the later enabled state. The browser test demonstrates why CA002's Not Applied result can reflect expected scope rather than a fault.
 
-Phase 1 includes three screenshots: eight Member accounts with consistent UPNs and no on-premises synchronization, Alex Morgan's user profile, and Alex Morgan's active Microsoft 365 E5 Developer license with direct assignment. The case study distinguishes observed configuration from sign-in tests, provisioning methods, and troubleshooting outcomes that have not yet been provided.
+## Detailed case studies
 
-Phase 2 includes five screenshots documenting four department security groups, three Microsoft 365 collaboration groups, and HR group membership and ownership. All seven groups show Assigned membership. The case study explains each group type's purpose and distinguishes configuration checks from resource access testing.
+Each phase connects the business requirement, configuration, validation, screenshots, and support skills, with troubleshooting where relevant.
 
-Phase 3 includes nine screenshots covering HR, Finance, and IT Support shared mailboxes, HR and IT Support delegation, and the HR end-user validation. It distinguishes Full Access from Send As and documents the received HR test message, with clear limits on Finance permissions and the Outlook access capture.
+| Phase | Case study |
+| --- | --- |
+| 1 | [Identity and user provisioning](docs/phase-01-identity-and-user-provisioning.md) |
+| 2 | [Security groups and Microsoft 365 groups](docs/phase-02-security-and-microsoft-365-groups.md) |
+| 3 | [Exchange Online and shared mailboxes](docs/phase-03-exchange-online-and-shared-mailboxes.md) |
+| 4 | [Microsoft Teams](docs/phase-04-microsoft-teams.md) |
+| 5 | [SharePoint Online](docs/phase-05-sharepoint-online.md) |
+| 6 | [MFA and Conditional Access](docs/phase-06-mfa-and-conditional-access.md) |
+| 7 | [Self-Service Password Reset](docs/phase-07-self-service-password-reset.md) |
+| 8 | [RBAC, administrative delegation, and auditing](docs/phase-08-rbac-delegation-and-auditing.md) |
 
-Phase 4 includes six screenshots covering the HR, Finance, and Sales teams, HR's standard and private channels, team roles, and HR Management membership. Sarah's and Melissa's identified user views show the expected difference in private-channel visibility.
+## Evidence boundaries
 
-Phase 5 documents the Northstar Corporate Portal, four document libraries, HR's unique permissions, and the SG-HR-Users Edit assignment. The Sarah-versus-James comparison records portal visibility rather than a direct library allow/deny test. Six supplied screenshots accompany the case study.
+The phase documents distinguish screenshot evidence, author-reported implementation, and unverified tests.
 
-Phase 6 includes five screenshots covering enabled CA001 and CA002 policies and Sarah's sign-in evaluations. It documents the author-reported Report-only rollout, CA001's Success result, and CA002's expected Not Applied result for a Browser client, with unshown exclusion identities and test details left unspecified.
+- **Identity and groups:** The directory shows eight accounts; Alex's profile and license are evidenced. Provisioning methods, other users' licensing, and complete onboarding tests are not established. HR membership evidence does not verify every department's membership.
+- **Exchange:** HR's Outlook entry is collapsed; the received message does not identify the sending delegate or full sender address. Finance delegation and Finance/IT Support end-user tests are not captured.
+- **Teams and SharePoint:** Visibility comparisons do not prove direct conversation, file, or library access. Finance/Sales library permissions are not pictured.
+- **Conditional Access:** Earlier Report-only results, exclusion identities, detailed MFA grant settings, authentication methods, and a blocked legacy-client attempt are not shown.
+- **SSPR and RBAC:** Post-reset sign-in is not captured. Alex's other workload-access tests are absent; Sarah's policy evaluations do not validate either administrator's sign-in.
 
-Phase 7 includes six screenshots covering SSPR scope, the two-method reset requirement, sign-in registration, Sarah's authentication-method inventory, and successful reset confirmation. It explains the reported initial registration mismatch and uses the Microsoft Entra audit event to verify Sarah's reset outcome.
-
-Phase 8 includes eight screenshots documenting Daniel's Helpdesk Administrator role and successful password reset, Alex's four administrator roles and demonstrated Teams admin access, the reset audit actor and target, and Sarah's Conditional Access evaluations. It distinguishes assigned roles from tested workload access and records lessons learned.
-
-## Relevance to support roles
-
-This project provides a context for discussing user account administration, Microsoft 365 service support, access troubleshooting, and clear technical documentation. Evidence and demonstrated skills are described within each phase rather than assuming every listed technology has been independently validated.
-
-## Lab and privacy boundary
-
-Northstar Consulting is fictional. This repository describes lab work and does not represent a production customer deployment.
-
-Only reviewed evidence belongs in this portfolio. Passwords, MFA secrets, QR codes, tokens, personal phone numbers, recovery information, and other credentials must not be committed.
-
-**Current review boundary: Phases 1–7 approved; Phase 8 ready for final review. All eight phases are documented.**
+All eight phases are documented and awaiting final repository review. Screenshots must exclude passwords, MFA secrets, QR codes, tokens, personal phone numbers, and recovery information.
