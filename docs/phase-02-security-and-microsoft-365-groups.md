@@ -6,8 +6,6 @@
 
 Northstar Consulting required a department-based approach to access control and collaboration. IT, HR, Finance, and Sales needed security groups to organize access assignments. HR, Finance, and Sales also needed Microsoft 365 collaboration groups to support services such as Teams and SharePoint.
 
-Separating these purposes makes the intended role of each group clear during user onboarding, membership reviews, and support investigations.
-
 ## Implementation evidenced
 
 I created department-based security groups for IT, HR, Finance, and Sales, and Microsoft 365 collaboration groups for HR, Finance, and Sales. The screenshots below document their resulting configuration in Microsoft Entra.
