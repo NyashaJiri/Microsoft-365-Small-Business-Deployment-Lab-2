@@ -1,6 +1,6 @@
 # Northstar Consulting — Microsoft 365 Administration Lab
 
-A simulated small-business deployment in a **Microsoft 365 E5 Developer tenant**, demonstrating skills relevant to  IT Support and Microsoft 365 administration**. Northstar Consulting is fictional; this project represents independent lab work, not employment or production administration.
+A simulated small-business deployment in a **Microsoft 365 E5 Developer tenant**, demonstrating skills relevant to  **IT Support and Microsoft 365 administration**. Northstar Consulting is fictional; this project represents independent lab work, not employment or production administration.
 
 ## Business scenario and demonstrated skills
 
