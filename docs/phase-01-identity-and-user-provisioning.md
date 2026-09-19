@@ -54,19 +54,6 @@ The job title is a profile attribute, not evidence of an assigned administrator 
 
 *Figure 3. Alex Morgan's license displays Active, 78/78 enabled services, and Direct assignment.*
 
-## Validation and testing
-
-The following is a review of the supplied evidence, not a claim that additional live tenant tests were performed.
-
-| Check | Evidence-supported result | Limit |
-| --- | --- | --- |
-| Accounts present in the directory | Eight named accounts are visible | Does not prove account creation method |
-| UPN consistency | All eight use firstname.lastname@nyashajiri.com | Does not prove email delivery or mailbox readiness |
-| User type | All eight display Member | Does not establish administrative roles |
-| Synchronization status | All eight display No for on-premises synchronization | Does not establish the tenant's broader identity architecture |
-| License assignment | Alex Morgan: active Microsoft 365 E5 Developer license, 78/78 enabled services, Direct assignment | Other users' licenses and actual service access are not evidenced |
-| Account enabled status | Alex Morgan: Yes | Successful sign-in is not established; other users' status is not shown |
-| Department, job title and usage location | Alex Morgan: IT, IT Administrator, United States | These values are not established for other users |
 
 ## Troubleshooting
 
