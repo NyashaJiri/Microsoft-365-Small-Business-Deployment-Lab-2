@@ -37,14 +37,4 @@ Each phase connects the business requirement, configuration, validation, screens
 | 7 | [Self-Service Password Reset](docs/phase-07-self-service-password-reset.md) |
 | 8 | [RBAC, administrative delegation, and auditing](docs/phase-08-rbac-delegation-and-auditing.md) |
 
-## Evidence boundaries
 
-The phase documents distinguish screenshot evidence, author-reported implementation, and unverified tests.
-
-- **Identity and groups:** The directory shows eight accounts; Alex's profile and license are evidenced. Provisioning methods, other users' licensing, and complete onboarding tests are not established. HR membership evidence does not verify every department's membership.
-- **Exchange:** HR's Outlook entry is collapsed; the received message does not identify the sending delegate or full sender address. Finance delegation and Finance/IT Support end-user tests are not captured.
-- **Teams and SharePoint:** Visibility comparisons do not prove direct conversation, file, or library access. Finance/Sales library permissions are not pictured.
-- **Conditional Access:** Earlier Report-only results, exclusion identities, detailed MFA grant settings, authentication methods, and a blocked legacy-client attempt are not shown.
-- **SSPR and RBAC:** Post-reset sign-in is not captured. Alex's other workload-access tests are absent; Sarah's policy evaluations do not validate either administrator's sign-in.
-
-All eight phases are documented and awaiting final repository review. Screenshots must exclude passwords, MFA secrets, QR codes, tokens, personal phone numbers, and recovery information.
