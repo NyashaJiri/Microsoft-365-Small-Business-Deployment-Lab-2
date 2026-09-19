@@ -55,20 +55,6 @@ A group name ending in `Team` does not establish that a Microsoft Teams team has
 
 The creation of these groups is confirmed by the lab author and their configuration is shown in the screenshots. The exact creation interface, click sequence, and order of operations have not been supplied.
 
-## Validation and testing
-
-The following checks are supported by the supplied screenshots. They review recorded configuration rather than claim additional live tests.
-
-| Check | Evidence-supported result | Evidence |
-| --- | --- | --- |
-| Department security groups exist | Four groups: IT, HR, Finance, Sales; all Security and Assigned | Figure 1 |
-| HR security group membership | Melissa Grant and Sarah Johnson are the two direct members | Figure 2 |
-| Department collaboration groups exist | Three groups: HR, Finance, Sales; all Microsoft 365 and Assigned | Figure 3 |
-| HR collaboration group ownership | Sarah Johnson is the single displayed owner | Figure 4 |
-| HR collaboration group membership | Melissa Grant and Sarah Johnson are the two direct members | Figure 5 |
-| HR membership consistency | Both HR groups show the same two direct members | Figures 2 and 5 |
-
-**Validation boundary:** Resource permission assignments, allowed/denied access tests, owner management tests, and Teams or SharePoint functionality are not demonstrated by these captures. Matching HR memberships show the recorded state, not automatic synchronization between the two groups.
 
 ## Screenshots and evidence
 
