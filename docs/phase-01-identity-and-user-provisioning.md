@@ -8,7 +8,7 @@ For the Northstar Consulting lab scenario, the identity foundation supports empl
 
 ## Implementation evidenced
 
-The supplied Microsoft Entra user-list screenshot shows eight accounts using the `nyashajiri.com` user principal name (UPN) suffix. Each displayed account is a **Member**, with **On-premises sync: No**.
+The supplied Microsoft Entra user-list screenshot shows eight accounts using the `nyashajiri.com` domain and  user principal name (UPN) suffix. Each displayed account is a **Member**, with **On-premises sync: No**.
 
 | Display name | User principal name |
 | --- | --- |
