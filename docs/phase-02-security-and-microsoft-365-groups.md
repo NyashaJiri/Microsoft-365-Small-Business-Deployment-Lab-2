@@ -49,7 +49,7 @@ Sarah appears explicitly in both the Owners and Members views. This documents ow
 | Security | Organize department users for access control | Review membership when investigating access to a resource assigned to the group |
 | Microsoft 365 | Organize department collaboration | Review group membership and ownership when supporting shared workspaces |
 
-Security groups can be granted permissions to resources. Microsoft 365 groups provide shared membership for collaboration resources such as SharePoint, and Teams uses Microsoft 365 groups for membership. Microsoft 365 group membership therefore also affects access to its connected resources; the distinction is the groups' primary purpose in this design. [Microsoft Learn: Compare types of groups in Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups?view=o365-worldwide).
+Security groups can be granted permissions to resources. Microsoft 365 groups provide shared membership for collaboration resources such as SharePoint, and Teams uses Microsoft 365 groups for membership. Microsoft 365 group membership therefore also affects access to its connected resources.
 
 A group name ending in `Team` does not establish that a Microsoft Teams team has been created. This phase documents the groups; Teams and SharePoint configuration are documented in [Phase 4](phase-04-microsoft-teams.md) and [Phase 5](phase-05-sharepoint-online.md).
 
