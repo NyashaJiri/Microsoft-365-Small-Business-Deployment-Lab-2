@@ -90,7 +90,7 @@ The creation of these groups is confirmed by the lab author and their configurat
 
 ## Troubleshooting
 
-No Phase 2 troubleshooting incident or resolution was supplied. No corrective action or successful access retest is claimed.
+No Phase 2 troubleshooting incident or resolution was supplied.
 
 ## Skills demonstrated
 
