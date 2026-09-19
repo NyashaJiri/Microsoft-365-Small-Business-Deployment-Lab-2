@@ -4,7 +4,7 @@
 
 ## Business requirement
 
-For the Northstar Consulting lab scenario, the identity foundation supports employees accessing Microsoft 365 with individual organizational accounts. This phase documents the user directory that underpins the later collaboration and security phases.
+For the Northstar Consulting lab scenario, the identity foundation supports employees accessing Microsoft 365 with individual organizational accounts. This phase establishes the user accounts used throughout the project, providing the foundation for later collaboration, access control, and security configurations.
 
 ## Implementation evidenced
 
