@@ -21,7 +21,6 @@ The supplied Microsoft Entra user-list screenshot shows eight accounts using the
 | Melissa Grant | melissa.grant@nyashajiri.com |
 | Sarah Johnson | sarah.johnson@nyashajiri.com |
 
-The displayed UPNs follow a consistent `firstname.lastname` pattern. The screenshot establishes the resulting directory state; it does not establish whether these accounts were newly created, adapted from demo users, or provisioned through a bulk process. Eight accounts are visible; this is not a claim about the tenant's total user count.
 
 ### User profile and licensing example: Alex Morgan
 
@@ -38,7 +37,7 @@ The additional profile and licensing captures establish the following settings f
 | Enabled services | 78/78 |
 | Assignment path | Direct |
 
-The job title is a profile attribute, not evidence of an assigned administrator role. The license screen shows the assignment state, not the process used to assign it. Enabled services do not by themselves prove successful access to each service.
+The job title is a profile attribute and the license screen shows the assignment state.
 
 ## Screenshots and evidence
 
