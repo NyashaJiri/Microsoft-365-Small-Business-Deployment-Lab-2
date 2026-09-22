@@ -64,17 +64,6 @@ The test compares the same HR team's **All** channels view under two identified 
 **Result:** The recorded membership and the contrasting user views support the private-channel visibility restriction. Sarah sees HR Management, while Melissa remains a member of the HR team and sees its standard channels without seeing HR Management.
 
 
-### Configuration checks
-
-| Check | Evidence-supported result | Evidence |
-| --- | --- | --- |
-| Departmental teams present | HR, Finance, and Sales are Active and Private | Figure 1 |
-| HR channel types | Three Standard channels and one Private channel | Figure 2 |
-| HR team roles | Sarah is Owner; Melissa is Member | Figure 3 |
-| Private-channel membership | Sarah is the single listed owner | Figure 4 |
-| Authorized-user visibility | Sarah's All view includes HR Management | Figure 5 |
-| Nonmember visibility | Melissa's All view excludes HR Management | Figure 6 |
-
 ## Screenshots and evidence
 
 ### Figure 1 — Departmental teams overview
