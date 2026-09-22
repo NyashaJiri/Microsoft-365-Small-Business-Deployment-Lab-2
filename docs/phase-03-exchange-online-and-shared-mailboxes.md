@@ -19,7 +19,6 @@ The Exchange admin center overview lists the following three objects with recipi
 | Finance | finance@nyashajiri.com | Figure 1 |
 | IT Support | support@nyashajiri.com | Figure 1 |
 
-The overview confirms Finance's mailbox identity and type. Finance delegation and end-user tests were not supplied, so no Finance delegates or test outcomes are inferred.
 
 ### Full Access versus Send As
 
