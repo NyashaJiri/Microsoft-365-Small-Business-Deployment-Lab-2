@@ -63,9 +63,6 @@ The test compares the same HR team's **All** channels view under two identified 
 
 **Result:** The recorded membership and the contrasting user views support the private-channel visibility restriction. Sarah sees HR Management, while Melissa remains a member of the HR team and sees its standard channels without seeing HR Management.
 
-Both screenshots use **All**, rather than only the Shown or Hidden view. The Show/Hide controls relate to channel-list presentation; they should not be interpreted as granting or removing membership.
-
-**Test scope:** These captures demonstrate channel visibility under the two accounts. They do not show opening private-channel conversations, accessing files, or a direct-link attempt returning an access-denied error. The filename of Figure 6 describes the negative validation, but the observed result is the private channel's absence from Melissa's channel list.
 
 ### Configuration checks
 
