@@ -48,7 +48,7 @@ The HR team Members view contains two entries. The HR Management membership view
 | Standard | Available to the parent team's members | General, HR Operations, and Recruitment |
 | Private | Restricted to team users added as private-channel owners or members | HR Management, with Sarah as its sole listed owner |
 
-Team privacy and channel type are separate settings. HR is a **private team** that contains both **standard channels** and a **private channel**. Membership in the HR team alone does not give Melissa membership in HR Management. Microsoft documents that private channels restrict participation to their channel membership and that team members see only private channels they have been added to. [Microsoft Learn: Private channels in Microsoft Teams](https://learn.microsoft.com/en-us/microsoftteams/private-channels).
+Team privacy and channel type are separate settings. HR is a **private team** that contains both **standard channels** and a **private channel**. Membership in the HR team alone does not give Melissa membership in HR Management. Private channels restrict participation to their channel membership and that team members see only private channels they have been added to.
 
 ## Validation and testing
 
