@@ -33,8 +33,6 @@ The HR Channels view lists four channels:
 | Recruitment | Standard | Recruitment-related collaboration |
 | HR Management | Private | Restricted HR management collaboration |
 
-The purpose descriptions interpret the channel names and business requirement; no conversations or files are claimed. The three standard channels plus one private channel explain why the overview shows three standard channels while HR's Channels view lists four items.
-
 ### Team and private-channel membership
 
 | User | Job title shown | HR team role | HR Management channel membership |
