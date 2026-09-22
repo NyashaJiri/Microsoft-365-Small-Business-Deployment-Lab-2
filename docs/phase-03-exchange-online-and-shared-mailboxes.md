@@ -42,34 +42,6 @@ The supplied Exchange admin center captures show separate **Send as** and **Read
 
 The HR users were assigned both permissions to handle HR correspondence; the IT Support users were assigned both to handle support correspondence. 
 
-## Validation and testing
-
-### HR end-user validation
-
-The supplied test evidence connects delegation configuration with the end-user experience:
-
-1. **Delegate context:** Sarah Johnson's Outlook session displays her personal account and the HR shared mailbox in the navigation pane (Figure 8).
-2. **Mailbox access:** The lab author reports the delegated user could open the mailbox. Figure 8 corroborates that it is listed in Sarah's Outlook; the HR entry is collapsed and Sarah's own Inbox is selected, so this frame does not directly show the HR Inbox contents.
-3. **Departmental sending:** The received message in James Taylor's Outlook displays **HR** as the sender and **James Taylor** as the recipient (Figure 9).
-4. **Test content:** The subject is **HR Shared Mailbox Test – Leave Request Confirmation**. The body identifies it as a test from the Northstar Consulting HR shared mailbox and uses an HR Department signature.
-
-**Observed result:** The recipient-side capture supports successful delivery of the HR test message with the departmental display name. Together with the HR Send As assignments, it is consistent with the reported Send As validation. The received view does not reveal which delegate clicked Send or expose the full sender address or message headers.
-
-### Validation record
-
-| Check | Result supported by the supplied evidence | Evidence |
-| --- | --- | --- |
-| Shared mailboxes exist | HR, Finance, and IT Support listed as SharedMailbox | Figure 1 |
-| HR delegation configured | Melissa Grant and Sarah Johnson listed for both permissions | Figures 2–4 |
-| IT Support delegation configured | Alex Morgan and Daniel Reed listed for both permissions | Figures 5–7 |
-| HR mailbox present in delegate's Outlook | HR entry visible alongside Sarah Johnson's account | Figure 8 |
-| HR mailbox opened | Reported by the lab author; open contents not visible in the provided frame | Author's validation description and Figure 8 |
-| Departmental sender displayed at recipient | James Taylor's received message shows HR as sender | Figure 9 |
-| Finance delegation and mailbox tests | Not evidenced | No Finance-specific delegation or test capture supplied |
-| IT Support end-user tests | Not evidenced | Configuration captures only |
-
-Figure 8 labels the HR mailbox with an `onmicrosoft.com` address, while Figure 1 displays `hr@nyashajiri.com`. Both labels are preserved as supplied. These captures do not establish why the labels differ, or prove alias configuration, a client refresh fix, DNS changes, or external mail routing.
-
 ## Screenshots and evidence
 
 ### Figure 1 — Shared mailbox overview
