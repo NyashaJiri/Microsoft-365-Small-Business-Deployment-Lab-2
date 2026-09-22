@@ -6,7 +6,6 @@
 
 Northstar Consulting needed departmental mailboxes for HR, Finance, and IT Support so that communications could use a shared departmental identity. Designated users needed to manage mailbox content and send replies appearing to come from the department.
 
-This phase documents the shared mailboxes, the evidenced delegation assignments for HR and IT Support, and the HR end-user validation.
 
 ## Implementation evidenced
 
