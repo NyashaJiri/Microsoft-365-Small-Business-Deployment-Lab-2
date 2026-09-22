@@ -20,7 +20,6 @@ The Teams administration overview shows three active teams with Private privacy:
 | M365-Finance-Team | Private | Active | 3 |
 | M365-Sales-Team | Private | Active | 4 |
 
-Their descriptions identify the corresponding Northstar Consulting departments. The counts above are specifically **standard channel** counts, not total channel counts. Finance and Sales channel names, memberships, and private-channel details are not shown in the supplied evidence.
 
 ### HR channel structure
 
@@ -41,8 +40,6 @@ The HR Channels view lists four channels:
 | Melissa Grant | HR Officer | Member | Not listed |
 
 The HR team Members view contains two entries. The HR Management membership view contains one entry, Sarah Johnson, with role **Owner** and channel type **Private**. This establishes a narrower channel membership than the parent team's membership.
-
-These screenshots document the resulting configuration. They do not establish the exact creation sequence, whether the teams were created from existing groups, or which administrator performed each action.
 
 ### Standard versus private channels
 
