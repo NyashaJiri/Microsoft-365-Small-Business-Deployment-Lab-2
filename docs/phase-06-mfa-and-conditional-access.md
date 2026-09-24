@@ -123,7 +123,7 @@ The CA002 evaluation shows:
 ## Skills demonstrated
 
 - **Conditional Access administration:** configuring an MFA policy and a legacy-authentication blocking policy.
-- **Deployment planning:** testing in Report-only mode before enforcement, as described by the lab author.
+- **Deployment planning:** testing in Report-only mode before enforcement.
 - **Exception awareness:** accounting for the reported emergency-access exclusion while documenting the actual exclusion counts.
 - **Sign-in log analysis:** reading assignment matches, client-app conditions, grant controls, and per-policy results.
 - **Support troubleshooting:** distinguishing successful enforcement from a policy correctly not applying to a particular client.
