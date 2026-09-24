@@ -88,9 +88,6 @@ A group name ending in `Team` does not establish that a Microsoft Teams team has
 
 *The Direct members view lists Melissa Grant and Sarah Johnson, matching the HR security group's displayed membership.*
 
-## Troubleshooting
-
-No Phase 2 troubleshooting incident or resolution was supplied.
 
 ## Skills demonstrated
 
