@@ -16,12 +16,11 @@ The supplied administration capture identifies **Northstar Corporate Portal** as
 
 ### Document library structure
 
-| Library | Purpose in the stated lab design | Evidence available |
+| Library | Purpose in the stated lab design ||
 | --- | --- | --- |
-| Company Documents | Shared company documentation | Library navigation entry |
-| HR Documents | Department-restricted HR documentation | Navigation, unique-permissions view, security-group assignment, and contrasting user views |
-| Finance Documents | Department-restricted Finance documentation | Navigation entry; stopped inheritance described by the lab author |
-| Sales Resources | Department-restricted Sales resources | Navigation entry and James's portal view; stopped inheritance described by the lab author |
+| HR Documents | Department-restricted HR documentation | 
+| Finance Documents | Department-restricted Finance documentation | 
+| Sales Resources | Department-restricted Sales resources |
 
 The library purposes and stopped inheritance for HR, Finance, and Sales follow the lab author's description. The screenshots directly establish HR's unique permission assignments. Finance and Sales permission lists and permission levels were not supplied; they are not assumed to match HR. Company Documents' inheritance status and permission levels are not shown.
 
