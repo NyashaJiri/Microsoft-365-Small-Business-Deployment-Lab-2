@@ -54,10 +54,6 @@ The job title is a profile attribute and the license screen shows the assignment
 *Figure 3. Alex Morgan's license displays Active, 78/78 enabled services, and Direct assignment.*
 
 
-## Troubleshooting
-
-No Phase 1 troubleshooting incident or resolution was supplied.
-
 ## Skills demonstrated
 
 - **Identity administration:** maintaining a lab directory containing organizational Member accounts.
