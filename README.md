@@ -1,6 +1,6 @@
 # Northstar Consulting — Microsoft 365 Administration Lab
 
-A simulated small-business deployment in a **Microsoft 365 E5 Developer tenant**, demonstrating skills relevant to  **IT Support and Microsoft 365 administration**. Northstar Consulting is fictional; this project represents independent lab work, not employment or production administration.
+A simulated small-business deployment in a **Microsoft 365 E5 Developer tenant**, demonstrating skills relevant to  **IT Support and Microsoft 365 administration**. Northstar Consulting is fictional, this project represents independent lab work.
 
 ## Business scenario and demonstrated skills
 
@@ -16,11 +16,7 @@ The strongest demonstrated skills are mailbox delegation, group-based permission
 - **Access control:** Sarah sees the HR Management private channel; Melissa's channel list excludes it. HR Documents has unique permissions, with SG-HR-Users assigned Edit.
 - **Security and administration:** CA001 records Success with grant controls satisfied; CA002 records Not Applied for a nonmatching Browser client. Alex has four specific administrator roles instead of Global Administrator and demonstrated Teams admin-center access.
 
-## Troubleshooting and deployment judgment
 
-**SSPR:** The reported initial failure involved a two-method reset requirement and only one registered method. The case study connects registration readiness to the policy requirement and verifies the later successful reset through audit evidence. The exact corrective steps and methods used were not captured.
-
-**Conditional Access:** Both policies were reportedly tested in Report-only mode and reviewed in sign-in logs before enforcement. The screenshots show the later enabled state. The browser test demonstrates why CA002's Not Applied result can reflect expected scope rather than a fault.
 
 ## Detailed case studies
 
