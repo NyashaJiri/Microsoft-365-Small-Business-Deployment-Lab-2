@@ -53,18 +53,6 @@ The supplied captures show the portal home page under two identified accounts:
 
 The user describes the validation as authorized HR access and unrelated-user exclusion. The observed views are consistent with that intended restriction, and HR's group-based unique permissions provide configuration evidence.
 
-### Validation record
-
-| Check | Evidence-supported result | Evidence |
-| --- | --- | --- |
-| Portal present | Named portal and associated site details shown | Figure 1 |
-| Library navigation | All four requested library names displayed | Figure 2 |
-| HR inheritance stopped | Unique-permissions banner visible | Figure 3 |
-| HR departmental assignment | SG-HR-Users has Edit; portal Owners have Full Control | Figure 4 |
-| Authorized-user portal view | Sarah sees HR Documents and an HR-related activity card | Figure 5 |
-| Unrelated-user portal view | James's view omits HR Documents | Figure 6 |
-| Direct HR library allow/deny test | Not directly captured | Would require library-open and denied-request evidence |
-| Finance and Sales permission verification | Not captured | Separate permission views not supplied |
 
 ## Screenshots and evidence
 
