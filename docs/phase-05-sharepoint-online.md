@@ -22,7 +22,6 @@ The supplied administration capture identifies **Northstar Corporate Portal** as
 | Finance Documents | Department-restricted Finance documentation | 
 | Sales Resources | Department-restricted Sales resources |
 
-The library purposes and stopped inheritance for HR, Finance, and Sales follow the lab author's description. The screenshots directly establish HR's unique permission assignments. Finance and Sales permission lists and permission levels were not supplied; they are not assumed to match HR. Company Documents' inheritance status and permission levels are not shown.
 
 ### Permission inheritance and departmental restriction
 
