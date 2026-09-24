@@ -102,9 +102,6 @@ The test compares the same HR team's **All** channels view under two identified 
 
 *Melissa's identity is visible and All is selected. The three standard channels appear; HR Management does not.*
 
-## Troubleshooting
-
-No Phase 4 fault, corrective change, or retest after a fix was supplied. Melissa's missing private channel is the expected result of the recorded membership, rather than evidence of a Teams fault.
 
 ## Skills demonstrated
 
