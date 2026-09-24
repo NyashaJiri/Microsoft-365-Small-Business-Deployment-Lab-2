@@ -53,8 +53,6 @@ The supplied captures show the portal home page under two identified accounts:
 
 The user describes the validation as authorized HR access and unrelated-user exclusion. The observed views are consistent with that intended restriction, and HR's group-based unique permissions provide configuration evidence.
 
-**Evidence limit:** Both user screenshots show the portal home page. Neither shows Sarah opening HR Documents or a document, nor James attempting the HR library URL and receiving an access-denied response. A missing navigation entry alone does not prove denied resource access. Accordingly, this case study records the comparison as **portal visibility validation**, not a conclusively demonstrated direct-access allow/deny test.
-
 ### Validation record
 
 | Check | Evidence-supported result | Evidence |
