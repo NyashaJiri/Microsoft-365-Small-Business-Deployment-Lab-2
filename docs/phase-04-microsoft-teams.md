@@ -34,7 +34,7 @@ The HR Channels view lists four channels:
 
 ### Team and private-channel membership
 
-| User | Job title shown | HR team role | 
+| User | Job title shown | HR team role | |
 | --- | --- | --- | --- |
 | Sarah Johnson | HR Manager | Owner | 
 | Melissa Grant | HR Officer | Member | 
