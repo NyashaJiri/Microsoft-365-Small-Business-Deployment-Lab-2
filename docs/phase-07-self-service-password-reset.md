@@ -21,8 +21,7 @@ This phase documents tenant-wide SSPR settings, the reported registration mismat
 
 The All selection enables SSPR for the tenant's end-user population, including the Northstar lab users. Registration at sign-in prompts users to prepare authentication information. The 180-day value is a reconfirmation interval, not a password-expiration period.
 
-SSPR checks that a user has sufficient registered methods permitted by the applicable policy. A two-method requirement cannot be met with only one eligible method. Registration settings and the user's registered information therefore need to be considered together. [Microsoft Learn: How Microsoft Entra self-service password reset works](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks).
-
+SSPR checks that a user has sufficient registered methods permitted by the applicable policy. A two-method requirement cannot be met with only one eligible method. Registration settings and the user's registered information therefore need to be considered together.
 ### Sarah Johnson's recorded authentication methods
 
 The supplied user Authentication methods view shows:
@@ -34,42 +33,7 @@ The supplied user Authentication methods view shows:
 | Listed method | Software OATH token |
 | Listed method | Passkey |
 
-The screenshot's method details are already obscured and are preserved that way. The case study does not reproduce recovery addresses, token details, or other concealed values.
 
-This is a user-level authentication-method inventory. It does not identify which methods were selected during the successful SSPR flow or establish that every listed method is eligible for SSPR. In particular, the Passkey entry is recorded as a registered authentication method, not claimed as a password-reset verification method. The tenant's complete enabled-method policy is not shown.
-
-## Troubleshooting
-
-### Initial problem
-
-The lab author reports that the test user initially could not reset their password because the tenant required **two authentication methods** while the user had only **one registered method**.
-
-### Diagnostic finding
-
-The mismatch was between the policy requirement and the user's registration readiness. Enabling SSPR for the user population did not, by itself, supply the additional verification method needed for reset.
-
-| Troubleshooting element | Documented finding |
-| --- | --- |
-| Symptom | Test user initially unable to complete SSPR, as reported by the author |
-| Requirement | Two methods required |
-| Initial user state | One registered method, as reported by the author |
-| Cause identified | Insufficient registered methods to satisfy the reset requirement |
-| Current captured state | Two-method setting remains selected; Sarah's method inventory lists Email, Software OATH token, and Passkey |
-| Later outcome | Successful reset confirmed by the audit event and user-facing confirmation |
-
-### Resolution evidence and limits
-
-The supplied evidence records the initial cause and a later successful outcome. It does not show the exact corrective sequence, which method was initially registered, which additional method was registered next, or the verification methods used in the completed reset.
-
-The current two-method screenshot is documented as the captured configuration. The successful event is documented separately; the captures do not establish the policy value at the exact instant of that event. No unshown policy change, registration action, or administrator-performed reset is added to the narrative.
-
-**Support lesson:** Compare the required verification count with the user's eligible registered methods when investigating an SSPR failure, then verify the eventual outcome in the audit log.
-
-## Validation and testing
-
-### User-facing success
-
-The reset completion screen displays **Your password has been reset**, with a link to sign in using the new password. This confirms completion of the displayed reset flow. The screenshot does not show a subsequent sign-in or identify the account on that page.
 
 ### Microsoft Entra audit evidence
 
@@ -85,7 +49,7 @@ The supplied Audit Log Details capture provides account-specific confirmation:
 | Initiated by — Type | User |
 | User Principal Name | sarah.johnson@nyashajiri.com |
 
-The audit event directly supports a successful self-service password reset for Sarah. The status reason is more specific than the general activity name: it explicitly records that the password was reset. No additional audit events, failure codes, or registration events are inferred.
+The audit event directly supports a successful self-service password reset for Sarah. The status reason is more specific than the general activity name: it explicitly records that the password was reset. 
 
 ### Validation record
 
@@ -144,8 +108,4 @@ The audit event directly supports a successful self-service password reset for S
 - **Authentication-method review:** inspecting a user's registered methods without disclosing their sensitive details.
 - **Troubleshooting:** identifying a mismatch between required methods and initial registration readiness.
 - **Audit analysis:** interpreting the activity type, actor, status, and status reason to verify a reset.
-- **End-user validation:** documenting the reset completion experience while distinguishing it from a later sign-in test.
 
-These skills support service-desk work involving password recovery, registration assistance, and evidence-based resolution of account-access incidents.
-
-**Review status:** Phase 7 approved. All eight phases are documented; final repository review is pending.
