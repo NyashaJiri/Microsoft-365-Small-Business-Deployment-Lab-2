@@ -40,7 +40,7 @@ The supplied Exchange admin center captures show separate **Send as** and **Read
 | IT Support | alex.morgan@nyashajiri.com | Assigned | Assigned |
 | IT Support | daniel.reed@nyashajiri.com | Assigned | Assigned |
 
-The HR users were assigned both permissions to handle HR correspondence; the IT Support users were assigned both to handle support correspondence. 
+The HR users were assigned both permissions to handle HR correspondence and the IT Support users were assigned both to handle support correspondence. 
 
 ## Screenshots and evidence
 
@@ -98,9 +98,6 @@ The HR users were assigned both permissions to handle HR correspondence; the IT 
 
 *James Taylor's received message displays HR as the sender and the leave-request test subject.*
 
-## Troubleshooting
-
-No Phase 3 failure, diagnostic sequence, or corrective action was supplied. The difference between the HR address labels is recorded as an observation rather than a resolved incident.
 
 ## Skills demonstrated
 
