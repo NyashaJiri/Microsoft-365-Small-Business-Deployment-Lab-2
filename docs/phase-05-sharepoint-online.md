@@ -25,8 +25,7 @@ The supplied administration capture identifies **Northstar Corporate Portal** as
 
 ### Permission inheritance and departmental restriction
 
-Permission inheritance means a library uses permissions from its parent site. Stopping inheritance gives the library a separately managed permission scope, allowing its access assignments to differ from the site's. This is useful when users need portal access without access to every departmental library. Stopping inheritance alone is not proof of restricted access: the resulting permission entries must also be reviewed and adjusted. [Microsoft Support: Customize permissions for a SharePoint list or library](https://support.microsoft.com/en-us/sharepoint/lists/sharepoint-sharing-and-permissions/customize-permissions-for-a-sharepoint-list-or-library).
-
+Permission inheritance means a library uses permissions from its parent site. Stopping inheritance gives the library a separately managed permission scope, allowing its access assignments to differ from the site's. This is useful when users need portal access without access to every departmental library. Stopping inheritance alone is not proof of restricted access: the resulting permission entries must also be reviewed and adjusted to meet your needs.
 In this lab, inheritance was stopped for the HR, Finance, and Sales libraries to support departmental restrictions. The HR permissions page confirms the resulting state with **This library has unique permissions** and these entries:
 
 | Principal | Type displayed | Permission level |
@@ -34,11 +33,10 @@ In this lab, inheritance was stopped for the HR, Finance, and Sales libraries to
 | Northstar Corporate Portal Owners | SharePoint Group | Full Control |
 | SG-HR-Users | Domain Group | Edit |
 
-The portal owners retain administrative control while SG-HR-Users supplies the departmental permission assignment. The capture does not show a before-state, so it does not establish which inherited entries were removed or the exact sequence of changes.
-
+The portal owners retain administrative control while SG-HR-Users supplies the departmental permission assignment. 
 ### Entra security groups instead of individual assignments
 
-The documented design uses Entra department security groups for library permissions. HR demonstrates this directly: **SG-HR-Users** is assigned **Edit**, rather than Sarah or Melissa being individually listed on this library permission page. SharePoint displays the security-group principal as **Domain Group**; that label alone is not evidence of an on-premises directory deployment.
+The documented design uses Entra department security groups for library permissions. HR demonstrates this directly: **SG-HR-Users** is assigned **Edit**, rather than Sarah or Melissa being individually listed on this library permission page. SharePoint displays the security-group principal as **Domain Group**.
 
 The [approved Phase 2 evidence](phase-02-security-and-microsoft-365-groups.md) lists Sarah Johnson and Melissa Grant as direct members of SG-HR-Users. This provides a documented connection between department membership and the HR library assignment.
 
