@@ -37,10 +37,10 @@ For `M365-HR-Team`, the supplied Owners and Members views show:
 
 | Relationship | Configuration |
 | --- | --- |
-| Owner | Sarah Johnson — one owner shown |
-| Direct members | Melissa Grant and Sarah Johnson — two members shown |
+| Owner | Sarah Johnson |
+| Direct members | Melissa Grant and Sarah Johnson |
 
-Sarah appears explicitly in both the Owners and Members views. This documents ownership and participation separately. No Finance or Sales owner or member list has been supplied.
+Sarah appears explicitly in both the Owners and Members views. 
 
 ### Why use two group types?
 
@@ -53,7 +53,7 @@ Security groups can be granted permissions to resources. Microsoft 365 groups pr
 
 A group name ending in `Team` does not establish that a Microsoft Teams team has been created. This phase documents the groups; Teams and SharePoint configuration are documented in [Phase 4](phase-04-microsoft-teams.md) and [Phase 5](phase-05-sharepoint-online.md).
 
-The creation of these groups is confirmed by the lab author and their configuration is shown in the screenshots. The exact creation interface, click sequence, and order of operations have not been supplied.
+
 
 
 ## Screenshots and evidence
