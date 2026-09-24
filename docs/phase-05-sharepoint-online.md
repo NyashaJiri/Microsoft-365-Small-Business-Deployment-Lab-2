@@ -92,11 +92,6 @@ The user describes the validation as authorized HR access and unrelated-user exc
 
 *James's identified session shows the portal home page without the HR Documents navigation entry.*
 
-The supplied filename for Figure 6 labels it “denied”; the screenshot itself demonstrates navigation absence rather than an access-denied error.
-
-## Troubleshooting
-
-No Phase 5 diagnostic sequence, corrective change, or successful retest after a fix was supplied with this evidence. No troubleshooting resolution is claimed.
 
 ## Skills demonstrated
 
