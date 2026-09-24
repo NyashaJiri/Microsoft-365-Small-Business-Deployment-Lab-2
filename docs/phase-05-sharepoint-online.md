@@ -100,8 +100,4 @@ The user describes the validation as authorized HR access and unrelated-user exc
 - **Group-based access management:** using SG-HR-Users for departmental Edit access while retaining portal-owner Full Control.
 - **Permission reasoning:** separating site access, library permissions, and navigation visibility.
 - **End-user validation:** comparing identified user sessions with the intended departmental access model.
-- **Technical documentation:** distinguishing screenshot-verified configuration, author-described implementation, and tests not directly captured.
 
-These skills support common service-desk requests involving document access, department onboarding, missing navigation entries, and permission reviews.
-
-**Review status:** Phase 5 approved. All eight phases are documented; final repository review is pending.
