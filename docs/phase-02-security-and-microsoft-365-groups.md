@@ -21,7 +21,7 @@ I created department-based security groups for IT, HR, Finance, and Sales, and M
 
 I used these security groups primarily for access control. The `SG-` prefix distinguishes them from the collaboration groups. All four show **Assigned** membership.
 
-The HR example shows **Melissa Grant** and **Sarah Johnson** as the two direct members of `SG-HR-Users`. Membership lists for the other three security groups are not included in this phase's evidence.
+The HR example shows **Melissa Grant** and **Sarah Johnson** as the two direct members of `SG-HR-Users`.
 
 ### Microsoft 365 groups for collaboration
 
