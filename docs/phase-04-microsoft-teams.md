@@ -34,10 +34,10 @@ The HR Channels view lists four channels:
 
 ### Team and private-channel membership
 
-| User | Job title shown | HR team role | HR Management channel membership |
+| User | Job title shown | HR team role | 
 | --- | --- | --- | --- |
-| Sarah Johnson | HR Manager | Owner | Owner — sole listed entry |
-| Melissa Grant | HR Officer | Member | Not listed |
+| Sarah Johnson | HR Manager | Owner | 
+| Melissa Grant | HR Officer | Member | 
 
 The HR team Members view contains two entries. The HR Management membership view contains one entry, Sarah Johnson, with role **Owner** and channel type **Private**. This establishes a narrower channel membership than the parent team's membership.
 
