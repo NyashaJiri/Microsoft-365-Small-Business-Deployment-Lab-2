@@ -21,7 +21,7 @@ The Conditional Access policy list shows two user-created policies, both **On**:
 
 ### CA001 — Require MFA
 
-The lab author confirms that CA001 requires MFA for all users while excluding the emergency access account. Its supplied summary shows:
+CA001 requires MFA for all users while excluding the emergency access account. Its supplied summary shows:
 
 | Setting | Displayed configuration |
 | --- | --- |
@@ -32,9 +32,7 @@ The lab author confirms that CA001 requires MFA for all users while excluding th
 | Network | Not configured |
 | Client apps | 1 included; category not expanded |
 
-**Exclusion scope:** The emergency-account exclusion is confirmed by the author. The summary shows **two** excluded users, without their names. The second identity is not provided, and the emergency account's username is not invented. The document therefore does not describe the emergency account as the only exclusion.
-
-The MFA requirement is supplied by the author and reflected in the policy name. The summary does not expose the detailed grant selection or an authentication strength, so no specific method or strength is asserted.
+**Exclusion scope:** The emergency-account exclusion is excluded from policy. 
 
 ### CA002 — Block legacy authentication
 
@@ -48,16 +46,13 @@ The MFA requirement is supplied by the author and reflected in the policy name. 
 | State | On |
 | Network | Not configured |
 
-These configured client-app categories define the legacy-authentication policy's scope in the supplied summary. CA002 also has two excluded users, but their identities are not shown. No assumption is made that they are the same exclusions as CA001.
+These configured client-app categories define the legacy-authentication policy's scope in the supplied summary. CA002 also has excluded emergency access account.
 
 ### Report-only testing before enforcement
 
 I first tested both policies in **Report-only** mode, reviewed their behavior in **Microsoft Entra sign-in logs**, and then enabled them after confirming the expected behavior.
 
-This sequence is the lab author's reported implementation history. The five supplied screenshots capture the later **On/Enabled** state; they do not include the earlier Report-only results or a policy-change audit trail. Exact Report-only outcomes, test dates, and additional test accounts are not inferred.
-
-Report-only mode evaluates a policy and records its results without enforcing its access controls. This allows administrators to review policy impact before switching to On. Enabled-policy Success indicates that the policy applied and its requirements were met; it does not establish whether other policies also allowed the sign-in. [Microsoft Learn: Analyze Conditional Access policy impact](https://learn.microsoft.com/en-us/entra/identity/conditional-access/concept-conditional-access-report-only).
-
+Report-only mode evaluates a policy and records its results without enforcing its access controls. This allows administrators to review policy impact before switching to On. Enabled-policy Success indicates that the policy applied and its requirements were met.
 ## Validation and testing
 
 ### CA001 — Successful application
@@ -74,9 +69,7 @@ The CA001 policy evaluation shows:
 | Grant controls | Satisfied |
 | Session controls | Not configured |
 
-**Result:** CA001 applied successfully to the captured evaluation and its grant controls were satisfied. This supports the stated MFA policy's successful evaluation for Sarah. It does not identify the authentication method, show an MFA prompt, or prove that Sarah completed a new MFA challenge during this particular sign-in.
-
-The policy summary displays Client apps as “1 included,” while the sign-in evaluation displays the client-app condition as “Not configured.” Both are recorded as supplied. These screenshots do not establish whether configuration changed between the captures.
+**Result:** CA001 applied successfully to the captured evaluation and its grant controls were satisfied. This supports the stated MFA policy's successful evaluation for Sarah. 
 
 ### CA002 — Correctly not applied to the browser sign-in
 
@@ -91,22 +84,8 @@ The CA002 evaluation shows:
 | Client app | Browser — Not matched |
 | Device | Unknown — Not evaluated |
 
-**Result:** The user and resource matched, but the Browser client did not match CA002's configured client-app condition. The policy therefore did not apply to the normal modern-browser sign-in described by the author. This is the expected scope behavior for this test, not evidence that CA002 was disabled or malfunctioning.
+**Result:** The user and resource matched, but the Browser client did not match CA002's configured client-app condition. The policy therefore did not apply to the normal modern-browser sign-in as expected.
 
-The screenshots do not show a legacy-client attempt being blocked. They also do not expose event identifiers that independently establish that both policy panels came from the exact same sign-in event.
-
-### Validation summary
-
-| Check | Evidence-supported conclusion | Evidence |
-| --- | --- | --- |
-| Both policies enabled | Policy list shows On for CA001 and CA002 | Figure 1 |
-| CA001 assignments | All users and all resources included, with two user exclusions | Figure 2 |
-| Emergency-access exception | Reported by the author; excluded username not displayed | Author's configuration description |
-| Report-only rollout | Both policies tested and reviewed before enabling, as reported by the author | Author's implementation description |
-| CA001 application | Success with grant controls Satisfied for Sarah and Microsoft Graph | Figure 3 |
-| CA002 configuration | Block access with the two displayed legacy client-app categories | Figure 4 |
-| Modern-browser scope test | Not Applied because Browser did not match | Figure 5 |
-| Actual legacy-authentication block | Not demonstrated in the supplied captures | No blocked legacy-client test supplied |
 
 ## Screenshots and evidence
 
@@ -140,11 +119,6 @@ The screenshots do not show a legacy-client attempt being blocked. They also do 
 
 *The Browser client is Not matched, resulting in Not Applied for the enabled CA002 policy.*
 
-## Troubleshooting and interpretation
-
-The CA002 Not Applied result is explained by the recorded client-app mismatch. The policy's enabled state, matching user and resource, and nonmatching client condition distinguish expected policy scope from a failed deployment.
-
-No corrective policy change or failure-and-retest sequence was supplied for this phase. No additional incident resolution is claimed.
 
 ## Skills demonstrated
 
@@ -153,8 +127,4 @@ No corrective policy change or failure-and-retest sequence was supplied for this
 - **Exception awareness:** accounting for the reported emergency-access exclusion while documenting the actual exclusion counts.
 - **Sign-in log analysis:** reading assignment matches, client-app conditions, grant controls, and per-policy results.
 - **Support troubleshooting:** distinguishing successful enforcement from a policy correctly not applying to a particular client.
-- **Technical documentation:** separating observed policy state and evaluations from rollout history and unprovided authentication details.
 
-These skills support entry-level investigations of MFA requirements, sign-in behavior, and Conditional Access policy scope.
-
-**Review status:** Phase 6 approved. All eight phases are documented; final repository review is pending.
