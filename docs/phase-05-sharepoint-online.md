@@ -38,7 +38,7 @@ The portal owners retain administrative control while SG-HR-Users supplies the d
 
 The documented design uses Entra department security groups for library permissions. HR demonstrates this directly: **SG-HR-Users** is assigned **Edit**, rather than Sarah or Melissa being individually listed on this library permission page. SharePoint displays the security-group principal as **Domain Group**.
 
-The [approved Phase 2 evidence](phase-02-security-and-microsoft-365-groups.md) lists Sarah Johnson and Melissa Grant as direct members of SG-HR-Users. This provides a documented connection between department membership and the HR library assignment.
+The [Phase 2 evidence](phase-02-security-and-microsoft-365-groups.md) lists Sarah Johnson and Melissa Grant as direct members of SG-HR-Users. This provides a documented connection between department membership and the HR library assignment.
 
 Using a group allows departmental membership to be managed centrally while keeping the library permission entry in place. No user-addition or removal propagation test is claimed here. The exact security-group assignments and permission levels for Finance Documents and Sales Resources remain unverified by the supplied screenshots.
 
